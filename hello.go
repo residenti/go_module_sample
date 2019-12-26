@@ -1,10 +1,13 @@
 package main
 
 import (
-    "fmt"
-    "rsc.io/quote"
+	"fmt"
+
+	"github.com/residenti/go_module_sample/calc"
+	"rsc.io/quote"
 )
 
 func main() {
-    fmt.Println(quote.Hello())
+	fmt.Println(quote.Hello())
+	fmt.Println(calc.Sum(1, 1))
 }
